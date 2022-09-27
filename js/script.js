@@ -1,9 +1,7 @@
 let outfit = ['Maglia 1', 'Maglia 2', 'Panta 1', 'Panta 2'];
 let all = document.getElementById('card-item');
 
-// for (let i=0; i < outfit.length; i++) {
-//     all.innerHTML += '<li>' + outfit[i] + '</li>';
-// }
+
 let magliaOne = 100;
 let magliaTwo = 80;
 let pantaloneOne = 50;
