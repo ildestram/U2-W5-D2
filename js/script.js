@@ -18,31 +18,10 @@ function addto() {
     }
 }
 
-function button1() {
-    let risultatoOne = budgetOne - magliaOne;
-    document.getElementById("budget").innerHTML = "Hai un budget di: " + risultatoOne + " euro";
-    alert("Hai comprato una bellissima maglia rosa!")
-    ammount = "risultatoOne";
-    return risultatoOne;
+function button1(prezzo) {
+    budgetOne -= prezzo;
+    document.getElementById("budget").innerHTML = "Hai un budget di: " + budgetOne + " euro";
+    alert("Sei sicuro? 100 euro per una maglietta mi sembra un pò tanto!")
+    ammount = "resultOne";
 }
 
-function button2() {
-    let risultatoTwo = budgetOne - magliaTwo;
-    document.getElementById("budget").innerHTML = "Hai un budget di: " + risultatoTwo + " euro";
-    alert("Hai comprato dei bellimi pantaloni cargo!");
-    return budgetOne;
-}
-
-function button3() {
-    let risultatoThree = budgetOne - pantaloneOne;
-    document.getElementById("budget").innerHTML = "Hai un budget di: " + risultatoThree + " euro";
-    alert("Hai comprato dei bellissimi pantaloni verde cachi!");
-    return budgetOne;
-}
-
-function button4() {
-    let risultatoFour = budgetOne - pantaloneTwo;
-    document.getElementById("budget").innerHTML = "Hai un budget di: " + risultatoFour + " euro";
-    alert("Hai comprato dei pantaloni zebrati!");
-    return budgetOne;
-}
